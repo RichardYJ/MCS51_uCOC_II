@@ -1,0 +1,8 @@
+---- OSStartHighRdy Matches (7 in 3 files) ----
+OS_CORE.C line 517 : * Note       : OSStartHighRdy() MUST:
+OSStart in OS_CORE.C :         OSStartHighRdy();                            /* Execute target specific code to start task     */
+OS_CPU_A.ASM line 38 : ?PR?OSStartHighRdy?OS_CPU_A    SEGMENT CODE
+OS_CPU_A.ASM line 61 :         PUBLIC OSStartHighRdy
+OS_CPU_A.ASM line 128 :         RSEG ?PR?OSStartHighRdy?OS_CPU_A
+OS_CPU_A.ASM line 129 : OSStartHighRdy:
+UCOS_II.H line 492 : void        OSStartHighRdy(void);
